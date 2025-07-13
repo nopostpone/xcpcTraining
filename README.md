@@ -6,7 +6,8 @@
 
 |年份|简称|题目链接|补题情况|
 |:-:|:-:|:-:|:-:|
-|2025|山东省赛|[gym](https://codeforces.com/gym/105930)|CJKM
+|2025|山东省赛 <br>SDCPC|[gym](https://codeforces.com/gym/105930)|CJKM
+|2025|CCPC 邀请赛（福建）<br>FJCPC|[gym](https://codeforces.com/gym/105977)|BF
 
 
 ## ICPC 区域赛与 CCPC 国赛
