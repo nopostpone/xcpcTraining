@@ -18,12 +18,13 @@
 
 [<3](./Regional/)
 
-|年份|简称|题目链接|todo|
-|:-:|:-:|:-:|:-:|
-|2021|ccpc 威海|[gym](https://codeforces.com/gym/103428)|FH (IK)
-|2022|icpc 济南|[gym](https://codeforces.com/gym/104076)|DG
-|2022|icpc 沈阳|[gym](https://codeforces.com/gym/104160)|AI
-|2024|icpc 南京|[gym](https://codeforces.com/gym/105484)|CM
-|2025|icpc 网络赛一|[qoj](https://qoj.ac/contest/2513)|BCM
-|2025|icpc 网络赛二|[qoj](https://qoj.ac/contest/2524)|a lot
-|2025|ccpc 网络赛|[qoj](https://qoj.ac/contest/2534)|a lot
+|简称|题目链接|todo|
+|:-:|:-:|:-:|
+|2021 ccpc 威海|[gym](https://codeforces.com/gym/103428)|FH (IK)
+|2022 icpc 济南|[gym](https://codeforces.com/gym/104076)|DG
+|2022 icpc 沈阳|[gym](https://codeforces.com/gym/104160)|AI
+|2024 icpc 南京|[gym](https://codeforces.com/gym/105484)|CM
+|2024 icpc 沈阳|[gym](https://codeforces.com/gym/104160)|AI
+|2025 icpc 网络赛一|[qoj](https://qoj.ac/contest/2513)|BCM
+|2025 icpc 网络赛二|[qoj](https://qoj.ac/contest/2524)|a lot
+|2025 ccpc 网络赛|[qoj](https://qoj.ac/contest/2534)|a lot
