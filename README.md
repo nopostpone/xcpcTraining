@@ -7,6 +7,7 @@
 |年份|简称|题目链接|todo|
 |:-:|:-:|:-:|:-:|
 |2024|CCPC 邀请赛（郑州），河南省赛<br>HNCPC|[gym](https://codeforces.com/gym/105158)|
+|2024|ICPC 邀请赛（昆明）|[gym](https://codeforces.com/gym/105386)|JM
 |2025|山东省赛 <br>SDCPC|[gym](https://codeforces.com/gym/105930)|CJKM
 |2025|CCPC 邀请赛（福建）<br>FJCPC|[gym](https://codeforces.com/gym/105977)|
 |2025|CCPC 邀请赛（郑州），河南省赛<br>HNCPC|[gym](https://codeforces.com/gym/105941)|AL
