@@ -26,6 +26,7 @@
 |2022 icpc 沈阳|[gym](https://codeforces.com/gym/104160)|EJ
 |2023 icpc 澳门|[gym](https://codeforces.com/gym/104891)|EH
 |2024 icpc 南京|[gym](https://codeforces.com/gym/105484)|CM
+|2024 icpc 杭州|[gym](https://codeforces.com/gym/105657)|KH
 |2024 icpc 沈阳|[gym](https://codeforces.com/gym/105578)|MJ
 |2025 icpc 网络赛一|[qoj](https://qoj.ac/contest/2513)|BCM
 |2025 icpc 网络赛二|[qoj](https://qoj.ac/contest/2524)|a lot
