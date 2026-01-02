@@ -31,3 +31,6 @@
 |2025 icpc 网络赛一|[qoj](https://qoj.ac/contest/2513)|
 |2025 icpc 网络赛二|[qoj](https://qoj.ac/contest/2524)|a lot
 |2025 ccpc 网络赛|[qoj](https://qoj.ac/contest/2534)|a lot
+|2025 icpc 成都|[qoj](https://qoj.ac/contest/2567)|
+|2025 icpc 武汉|[qoj](https://qoj.ac/contest/2609)|
+|2025 icpc 沈阳|[qoj](https://qoj.ac/contest/2641)|DJ
