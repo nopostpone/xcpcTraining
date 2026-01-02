@@ -22,7 +22,7 @@
 ### 2025 之前
 
 |简称|题目链接|todo|
-|:-:|:-:|:-:|
+|:-|:-:|:-:|
 |2021 ccpc 威海|[gym](https://codeforces.com/gym/103428)|FH (IK)
 |2022 icpc 济南|[gym](https://codeforces.com/gym/104076)|DG
 |2022 icpc 沈阳|[gym](https://codeforces.com/gym/104160)|EJ
@@ -34,9 +34,9 @@
 ### 2025
 
 |简称|题目链接|todo|
-|:-:|:-:|:-:|
-|2025 icpc 网络赛一|[qoj](https://qoj.ac/contest/2513)|
-|2025 icpc 网络赛二|[qoj](https://qoj.ac/contest/2524)|a lot
+|:-|:-:|:-:|
+|2025 icpc 网络赛 1|[qoj](https://qoj.ac/contest/2513)|
+|2025 icpc 网络赛 2|[qoj](https://qoj.ac/contest/2524)|a lot
 |2025 ccpc 网络赛|[qoj](https://qoj.ac/contest/2534)|a lot
 |2025 icpc 成都|[qoj](https://qoj.ac/contest/2567)|
 |2025 icpc 武汉|[qoj](https://qoj.ac/contest/2609)|
