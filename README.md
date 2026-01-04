@@ -38,6 +38,7 @@
 |2025 ICPC Online (I)|[qoj](https://qoj.ac/contest/2513)|
 |2025 ICPC Online (II)|[qoj](https://qoj.ac/contest/2524)|a lot
 |2025 CCPC Online|[qoj](https://qoj.ac/contest/2534)|a lot
+|2025 ICPC Xi'an|[qoj](https://qoj.ac/contest/2562)|BC
 |2025 ICPC Chengdu|[qoj](https://qoj.ac/contest/2567)|
 |2025 ICPC Wuhan|[qoj](https://qoj.ac/contest/2609)|
 |2025 ICPC Nanjing|[qoj](https://qoj.ac/contest/2581)|M
