@@ -43,3 +43,4 @@
 |2025 ICPC Wuhan|[qoj](https://qoj.ac/contest/2609)|
 |2025 ICPC Nanjing|[qoj](https://qoj.ac/contest/2581)|M
 |2025 ICPC Shenyang|[qoj](https://qoj.ac/contest/2641)|DJ
+|2025 CCPC Jinan|[qoj](https://qoj.ac/contest/2693)|E
