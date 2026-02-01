@@ -71,9 +71,7 @@ struct SCC {
 void solve() {
     int n, k, q;
     cin >> n >> k >> q;
-
-    SCC scc(n);
-
+    
     vector a(k, vector<int>(n));
     for (int i = 0; i < k; i++) {
         for (int j = 0; j < n; j++) {
@@ -81,32 +79,42 @@ void solve() {
             a[i][j]--;
         }
     }
-
+    
+    SCC scc(n);
     for (int i = 0; i < k; i++) {
         for (int j = 1; j < n; j++) {
             scc.addEdge(a[i][j - 1], a[i][j]);
         }
     }
-    const auto &adj = scc.adj;
-    auto bel = scc.work();
+    scc.work();
 
     vector<vector<int>> seq(k);
     vector<vector<i64>> f(k);
+
+    vector nxt(k, vector<int>(n));
+    vector pre(k, vector<int>(n));
     for (int i = 0; i < k; i++) {
         seq[i].push_back(0);
+
         for (int j = 1; j < n; j++) {
-            if (bel[a[i][j]] != bel[a[i][j - 1]]) {
+            if (scc.bel[a[i][j]] != scc.bel[a[i][j - 1]]) {
                 seq[i].push_back(j);
             }
+            pre[i][j] = (int)seq[i].size() - 1;
         }
         seq[i].push_back(n);
+        for (int j = n - 1, p = (int)seq[i].size() - 1; j >= 0; j--) {
+            while (p >= 0 and seq[i][p] >= j) {
+                p--;
+            }
+            nxt[i][j] = p + 1;
+        }
 
         f[i].resize(seq[i].size());
         f[i][0] = 0;
         for (int j = 1; j < seq[i].size(); j++) {
             int len = seq[i][j] - seq[i][j - 1];
-            f[i][j] = i64(len) * (len - 1) / 2;
-            f[i][j] += f[i][j - 1];
+            f[i][j] = i64(len) * (len - 1) / 2 + f[i][j - 1];
         }
     }
 
@@ -120,18 +128,18 @@ void solve() {
         r = (r + ans) % n;
         r++;
 
-        int pl = lower_bound(seq[i].begin(), seq[i].end(), l) - seq[i].begin();
-        int pr = upper_bound(seq[i].begin(), seq[i].end(), r) - seq[i].begin() - 1;
+        int pl = nxt[i][l];
+        int pr = pre[i][r - 1];
 
+        ans = 0;
         if (seq[i][pl] > r) {
             ans = i64(r - l) * (r - l - 1) / 2;
         } else {
-            ans = 0;
             ans += i64(seq[i][pl] - l) * (seq[i][pl] - l - 1) / 2;
             ans += i64(seq[i][pr] - r) * (seq[i][pr] - r + 1) / 2;
             ans += f[i][pr] - f[i][pl];
         }
-        cout << ans << "\n";
+        cout << ans << endl;
     }
 }
 
